@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chapter3</string>
+    <string name="duration_hint">设置动画时长，单位为毫秒，范围为 100 ~ 10000</string>
+    <string name="invalid_duration">时长单位为毫秒，请输入范围在 100 ~ 10000 的值</string>
+</resources>

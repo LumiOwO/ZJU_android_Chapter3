@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/target"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@color/colorAccent"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp">
+
+        <View
+            android:id="@+id/startColorPicker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"/>
+
+        <View
+            android:id="@+id/endColorPicker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"/>
+        
+        <Button
+            android:id="@+id/durationButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:text="1000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
